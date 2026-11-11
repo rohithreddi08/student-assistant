@@ -1,0 +1,17 @@
+# GBNF grammar for llama.cpp (llama-server --grammar-file ultron.gbnf, or the "grammar" request field).
+# Forces the exact envelope: thinking -> spoken_response -> tool_calls, with tool names from a closed set.
+# Tool *arguments* are any JSON object here; UltronBrain validates them against the strict per-tool
+# schemas (and asks the model to repair on failure). For fully nested enforcement, prefer the JSON-schema
+# path (Ollama `format`, vLLM `response_format`), which llama.cpp/xgrammar compile into a grammar for you.
+
+root      ::= "{" ws "\"thinking\"" ws ":" ws string ws "," ws "\"spoken_response\"" ws ":" ws string ws "," ws "\"tool_calls\"" ws ":" ws toolcalls ws "}"
+toolcalls ::= "[" ws ( toolcall ( ws "," ws toolcall ){0,4} )? ws "]"
+toolcall  ::= "{" ws "\"name\"" ws ":" ws toolname ws "," ws "\"arguments\"" ws ":" ws object ws "}"
+toolname  ::= "\"execute_terminal_cmd\"" | "\"get_system_diagnostics\"" | "\"launch_app\"" | "\"run_local_script\""
+
+value  ::= object | array | string | number | ("true" | "false" | "null")
+object ::= "{" ws ( string ws ":" ws value ( ws "," ws string ws ":" ws value )* )? ws "}"
+array  ::= "[" ws ( value ( ws "," ws value )* )? ws "]"
+string ::= "\"" ( [^"\\\x7F\x00-\x1F] | "\\" ( ["\\/bfnrt] | "u" [0-9a-fA-F]{4} ) )* "\""
+number ::= "-"? ( [0-9] | [1-9] [0-9]{0,15} ) ( "." [0-9]+ )? ( [eE] [-+]? [0-9]{1,15} )?
+ws     ::= | " " | "\n" [ \t]{0,20}

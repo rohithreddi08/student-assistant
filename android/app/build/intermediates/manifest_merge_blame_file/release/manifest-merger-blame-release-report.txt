@@ -1,0 +1,204 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ultron.app"
+4    android:versionCode="2"
+5    android:versionName="1.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:5:5-79
+12-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:6:5-76
+13-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:6:22-73
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:7:5-65
+14-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:7:22-62
+15    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+15-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:8:5-71
+15-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:8:22-68
+16    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+16-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:9:5-80
+16-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:9:22-77
+17    <uses-permission android:name="android.permission.READ_CONTACTS" />
+17-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:10:5-72
+17-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:10:22-69
+18    <uses-permission android:name="android.permission.CALL_PHONE" />
+18-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:11:5-69
+18-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:11:22-66
+19    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+19-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:12:5-77
+19-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:12:22-74
+20    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+20-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:13:5-77
+20-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:13:22-74
+21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+21-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:14:5-89
+21-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:14:22-86
+22    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+22-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:15:5-81
+22-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:15:22-78
+23    <uses-permission android:name="android.permission.WAKE_LOCK" />
+23-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:16:5-68
+23-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:16:22-65
+24    <uses-permission android:name="android.permission.VIBRATE" />
+24-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:17:5-66
+24-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:17:22-63
+25    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+25-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:18:5-78
+25-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:18:22-75
+26
+27    <uses-feature
+27-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:20:5-85
+28        android:name="android.hardware.camera"
+28-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:20:19-57
+29        android:required="false" />
+29-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:20:58-82
+30    <uses-feature
+30-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:21:5-91
+31        android:name="android.hardware.camera.front"
+31-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:21:19-63
+32        android:required="false" />
+32-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:21:64-88
+33    <uses-feature
+33-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:22:5-89
+34        android:name="android.hardware.microphone"
+34-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:22:19-61
+35        android:required="false" />
+35-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:22:62-86
+36    <uses-feature
+36-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:23:5-88
+37        android:name="android.hardware.telephony"
+37-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:23:19-60
+38        android:required="false" />
+38-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:23:61-85
+39
+40    <!-- Android 11+: which other apps/services ULTRON may look for -->
+41    <queries>
+41-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:26:5-33:15
+42        <intent>
+42-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:27:9-138
+43            <action android:name="android.intent.action.MAIN" />
+43-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:27:17-69
+43-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:27:25-66
+44
+45            <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:27:69-129
+45-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:27:79-126
+46        </intent>
+47        <intent>
+47-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:28:9-85
+48            <action android:name="android.speech.RecognitionService" />
+48-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:28:17-76
+48-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:28:25-73
+49        </intent>
+50        <intent>
+50-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:29:9-85
+51            <action android:name="android.intent.action.TTS_SERVICE" />
+51-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:29:17-76
+51-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:29:25-73
+52        </intent>
+53        <intent>
+53-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:30:9-109
+54            <action android:name="android.intent.action.VIEW" />
+54-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:30:17-69
+54-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:30:25-66
+55
+56            <data android:scheme="https" />
+56-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:30:69-100
+56-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:30:75-97
+57        </intent>
+58        <intent>
+58-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:31:9-78
+59            <action android:name="android.intent.action.DIAL" />
+59-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:31:17-69
+59-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:31:25-66
+60        </intent>
+61        <intent>
+61-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:32:9-83
+62            <action android:name="android.intent.action.SET_ALARM" />
+62-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:32:17-74
+62-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:32:25-71
+63        </intent>
+64    </queries>
+65
+66    <application
+66-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:35:5-70:19
+67        android:allowBackup="false"
+67-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:38:9-36
+68        android:extractNativeLibs="false"
+69        android:hardwareAccelerated="true"
+69-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:40:9-43
+70        android:icon="@mipmap/ic_launcher"
+70-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:37:9-43
+71        android:label="ULTRON"
+71-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:36:9-31
+72        android:theme="@android:style/Theme.Material.NoActionBar"
+72-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:41:9-66
+73        android:usesCleartextTraffic="true" >
+73-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:39:9-44
+74        <activity
+74-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:43:9-53:20
+75            android:name="com.ultron.app.MainActivity"
+75-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:44:13-41
+76            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden|keyboard|uiMode|smallestScreenSize"
+76-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:47:13-122
+77            android:exported="true"
+77-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:45:13-36
+78            android:launchMode="singleTask"
+78-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:46:13-44
+79            android:windowSoftInputMode="adjustResize" >
+79-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:48:13-55
+80            <intent-filter>
+80-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:49:13-52:29
+81                <action android:name="android.intent.action.MAIN" />
+81-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:27:17-69
+81-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:27:25-66
+82
+83                <category android:name="android.intent.category.LAUNCHER" />
+83-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:27:69-129
+83-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:27:79-126
+84            </intent-filter>
+85        </activity>
+86
+87        <service
+87-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:55:9-62:19
+88            android:name="com.ultron.app.UltronService"
+88-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:56:13-42
+89            android:exported="false"
+89-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:57:13-37
+90            android:foregroundServiceType="specialUse" >
+90-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:58:13-55
+91            <property
+91-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:59:13-61:109
+92                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+92-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:60:17-76
+93                android:value="Personal assistant: keeps reminders, alarms and phone-laptop sync running" />
+93-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:61:17-106
+94        </service>
+95
+96        <receiver
+96-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:64:9-69:20
+97            android:name="com.ultron.app.BootReceiver"
+97-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:64:19-47
+98            android:exported="true" >
+98-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:64:48-71
+99            <intent-filter>
+99-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:65:13-68:29
+100                <action android:name="android.intent.action.BOOT_COMPLETED" />
+100-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:66:17-79
+100-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:66:25-76
+101                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+101-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:67:17-84
+101-->C:\Users\Rohith\student-assistant\android\app\src\main\AndroidManifest.xml:67:25-81
+102            </intent-filter>
+103        </receiver>
+104    </application>
+105
+106</manifest>

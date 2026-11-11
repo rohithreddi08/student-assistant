@@ -1,0 +1,2 @@
+int drawable ic_stat 0x7f010000
+int mipmap ic_launcher 0x7f020000

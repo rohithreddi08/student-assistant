@@ -1,0 +1,5 @@
+plugins {
+    id 'com.android.application' version '8.2.2' apply false
+    // Chaquopy 15.x is the last line that supports Android 6 (minSdk 23). Newer versions need Android 7+.
+    id 'com.chaquo.python' version '15.0.1' apply false
+}

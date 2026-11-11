@@ -1,0 +1,7 @@
+com.ultron.app-pngs-0 C:\Users\Rohith\student-assistant\android\app\build\generated\res\pngs\release
+com.ultron.app-resValues-1 C:\Users\Rohith\student-assistant\android\app\build\generated\res\resValues\release
+com.ultron.app-packageReleaseResources-2 C:\Users\Rohith\student-assistant\android\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+com.ultron.app-packageReleaseResources-3 C:\Users\Rohith\student-assistant\android\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+com.ultron.app-merged_res-4 C:\Users\Rohith\student-assistant\android\app\build\intermediates\merged_res\release
+com.ultron.app-main-5 C:\Users\Rohith\student-assistant\android\app\src\main\res
+com.ultron.app-release-6 C:\Users\Rohith\student-assistant\android\app\src\release\res

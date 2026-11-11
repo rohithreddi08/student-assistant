@@ -1,0 +1,11 @@
+{
+  "sourceType": "script",
+  "presets": [
+    ["@babel/preset-env", {
+      "targets": { "chrome": "44", "android": "6" },
+      "modules": false,
+      "bugfixes": true,
+      "useBuiltIns": false
+    }]
+  ]
+}

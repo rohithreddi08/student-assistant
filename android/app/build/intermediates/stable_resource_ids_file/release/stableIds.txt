@@ -1,0 +1,2 @@
+com.ultron.app:mipmap/ic_launcher = 0x7f020000
+com.ultron.app:drawable/ic_stat = 0x7f010000

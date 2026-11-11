@@ -1,0 +1,20 @@
+{
+  "name": "ultron-web-legacy-build",
+  "private": true,
+  "description": "Builds the ULTRON web interface for old Android WebViews (Android 6 stock WebView = Chrome 44, up to the latest).",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "browserslist": [
+    "chrome >= 44",
+    "android >= 6"
+  ],
+  "devDependencies": {
+    "@babel/core": "7.26.0",
+    "@babel/preset-env": "7.26.0",
+    "autoprefixer": "10.4.20",
+    "core-js-builder": "3.39.0",
+    "postcss": "8.4.49"
+  }
+}

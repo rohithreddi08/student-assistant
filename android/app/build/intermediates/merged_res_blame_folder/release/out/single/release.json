@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "com.ultron.app-merged_res-4:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.ultron.app-main-5:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.ultron.app-merged_res-4:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.ultron.app-main-5:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.ultron.app-merged_res-4:/drawable-ldpi_ic_stat.png.flat",
+        "source": "com.ultron.app-pngs-0:/drawable-ldpi/ic_stat.png"
+    },
+    {
+        "merged": "com.ultron.app-merged_res-4:/drawable-hdpi_ic_stat.png.flat",
+        "source": "com.ultron.app-pngs-0:/drawable-hdpi/ic_stat.png"
+    },
+    {
+        "merged": "com.ultron.app-merged_res-4:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.ultron.app-main-5:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.ultron.app-merged_res-4:/drawable-anydpi-v24_ic_stat.xml.flat",
+        "source": "com.ultron.app-pngs-0:/drawable-anydpi-v24/ic_stat.xml"
+    },
+    {
+        "merged": "com.ultron.app-merged_res-4:/drawable-xxhdpi_ic_stat.png.flat",
+        "source": "com.ultron.app-pngs-0:/drawable-xxhdpi/ic_stat.png"
+    },
+    {
+        "merged": "com.ultron.app-merged_res-4:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.ultron.app-main-5:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.ultron.app-merged_res-4:/drawable-xxxhdpi_ic_stat.png.flat",
+        "source": "com.ultron.app-pngs-0:/drawable-xxxhdpi/ic_stat.png"
+    },
+    {
+        "merged": "com.ultron.app-merged_res-4:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.ultron.app-main-5:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.ultron.app-merged_res-4:/drawable-xhdpi_ic_stat.png.flat",
+        "source": "com.ultron.app-pngs-0:/drawable-xhdpi/ic_stat.png"
+    },
+    {
+        "merged": "com.ultron.app-merged_res-4:/drawable-mdpi_ic_stat.png.flat",
+        "source": "com.ultron.app-pngs-0:/drawable-mdpi/ic_stat.png"
+    }
+]

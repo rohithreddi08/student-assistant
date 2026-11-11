@@ -1,0 +1,42 @@
+plugins {
+    id 'com.android.application'
+    id 'com.chaquo.python'
+}
+
+android {
+    namespace 'com.ultron.app'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.ultron.app"
+        minSdk 23          // Android 6.0
+        targetSdk 34       // Android 14 (runs on newer versions too)
+        versionCode 2
+        versionName "1.1"
+        ndk {
+            // 32-bit phones (common on Android 6), 64-bit phones, and the emulator
+            abiFilters "armeabi-v7a", "arm64-v8a", "x86_64"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.debug   // installable directly; not for the Play Store
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+chaquopy {
+    defaultConfig {
+        version "3.11"
+        pyc {
+            src false   // ship .py files (no matching desktop Python needed to build)
+        }
+    }
+}
